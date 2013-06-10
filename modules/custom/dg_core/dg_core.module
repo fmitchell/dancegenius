@@ -5,5 +5,9 @@
  */
 function dg_core_init() {
     // Add fluid js for vimeo, youtube iframes.
-    ctools_add_js('fluidvids', 'dg_core');
+    drupal_add_js(drupal_get_path('module', 'dg_core') . '/js/fluidvids.js', array(
+            'type' => 'file',
+            'scope' => 'footer',
+        )
+    );
 }
