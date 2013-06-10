@@ -2,3 +2,4 @@ drushrc.php
 files/
 local.settings.php
 settings.php
+.idea
