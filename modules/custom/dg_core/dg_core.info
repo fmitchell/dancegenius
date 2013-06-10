@@ -1,0 +1,10 @@
+name = DG - Core
+description = Provides core functionality for dance genius.
+core = 7.x
+package = Dance Genius
+
+dependencies[] = ctools
+; files[] = pathauto.test
+; configure = admin/config/search/path/patterns
+; recommends[] = redirect
+

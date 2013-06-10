@@ -3,3 +3,4 @@ files/
 local.settings.php
 settings.php
 .idea
+.DS_Store

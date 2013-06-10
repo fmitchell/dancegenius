@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Implement hook_init to keep our global CSS at the ready.
+ */
+function dg_core_init() {
+    // Add fluid js for vimeo, youtube iframes.
+    ctools_add_js('fluidvids', 'dg_core');
+}
